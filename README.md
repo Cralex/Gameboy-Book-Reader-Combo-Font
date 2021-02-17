@@ -28,7 +28,7 @@ Press the convert button, and paste the results back in Makebook.
 
 ![Editor with converted text.](Pictures/editor.png)
 
- Download *Font_12_w_italics1.gbf* and select it when exporting your book. 
+ Download *![Font_12_w_italics1.gbf](https://github.com/Cralex/Gameboy-Book-Reader-Combo-Font/raw/main/Font_12_w_italics1.gbf)* and select it when exporting your book. 
 
 ![Font selected to be used.](Pictures/rom-creation.png)
 
