@@ -30,7 +30,7 @@ Press the convert button, and paste the results back in Makebook.
 
  Download *Font_12_w_italics1.gbf* and select it when exporting your book. 
 
-![Font selected to be used.](P:\Makebook GBA Booktext\Italics Test\Pictures\rom-creation.png)
+![Font selected to be used.](Pictures\rom-creation.png)
 
 If everything went well, your book will have snazzy new italics. Happy reading!
 
@@ -40,4 +40,3 @@ If everything went well, your book will have snazzy new italics. Happy reading!
 
 1. The font I made is a hybrid of the default *Font_12.gbf* included with the program and the font from *The Legend of Zelda Link's Awakening*, which is always italic. I'm no professional font creator, though, so I'm sure it could look prettier. ~~Maybe someone would like to improve it?~~ I also didn't bother making other font sizes.
 2. The characters that I sacrificed to make the font are mostly accented Latin characters. This works fine, unless there is some non-English text is included in your book… It would be possible to make a modified version that doesn't replace these characters, or only replaces those least-likely to be seen, but then you'd need to decide what to swap out instead. (Currency symbols that aren't used, for example.) I may take a crack at this if I have a need to do so for my own personal use. Alternatively, feel free to submit your own!
-
