@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function replace(){
+        var text = document.getElementById("textarea").value; //The contents of the text box becomes "test"
+        var newText = text.replace(/A/g, 'À');                //First change made. "text" becomes "newtext"
+        var newText = newText.replace(/B/g, 'Á');             //Each change is made and "newtext" is updated...
+        var newText = newText.replace(/C/g, 'Â');
+        var newText = newText.replace(/D/g, 'Ã');
+        var newText = newText.replace(/E/g, 'Ä');
+        var newText = newText.replace(/F/g, 'Å');
+        var newText = newText.replace(/G/g, 'Æ');
+        var newText = newText.replace(/H/g, 'Ç');
+        var newText = newText.replace(/I/g, 'È');
+        var newText = newText.replace(/J/g, 'É');
+        var newText = newText.replace(/K/g, 'Ê');
+        var newText = newText.replace(/L/g, 'Ë');
+        var newText = newText.replace(/M/g, 'Ì');
+        var newText = newText.replace(/N/g, 'Í');
+        var newText = newText.replace(/O/g, 'Î');
+        var newText = newText.replace(/P/g, 'Ï');
+        var newText = newText.replace(/Q/g, 'Ð');
+        var newText = newText.replace(/R/g, 'Ñ');
+        var newText = newText.replace(/S/g, 'Ò');
+        var newText = newText.replace(/T/g, 'Ó');
+        var newText = newText.replace(/U/g, 'Ô');
+        var newText = newText.replace(/V/g, 'Õ');
+        var newText = newText.replace(/W/g, 'Ö');
+        var newText = newText.replace(/X/g, '×');
+        var newText = newText.replace(/Y/g, 'Ø');
+        var newText = newText.replace(/Z/g, 'Ù');
+        var newText = newText.replace(/a/g, 'Ú');
+        var newText = newText.replace(/b/g, 'Û');
+        var newText = newText.replace(/c/g, 'Ü');
+        var newText = newText.replace(/d/g, 'Ý');
+        var newText = newText.replace(/e/g, 'Þ');
+        var newText = newText.replace(/f/g, 'ß');
+        var newText = newText.replace(/g/g, 'à');
+        var newText = newText.replace(/h/g, 'á');
+        var newText = newText.replace(/i/g, 'â');
+        var newText = newText.replace(/j/g, 'ã');
+        var newText = newText.replace(/k/g, 'ä');
+        var newText = newText.replace(/l/g, 'å');
+        var newText = newText.replace(/m/g, 'æ');
+        var newText = newText.replace(/n/g, 'ç');
+        var newText = newText.replace(/o/g, 'è');
+        var newText = newText.replace(/p/g, 'é');
+        var newText = newText.replace(/q/g, 'ê');
+        var newText = newText.replace(/r/g, 'ë');
+        var newText = newText.replace(/s/g, 'ì');
+        var newText = newText.replace(/t/g, 'í');
+        var newText = newText.replace(/u/g, 'î');
+        var newText = newText.replace(/v/g, 'ï');
+        var newText = newText.replace(/w/g, 'ð');
+        var newText = newText.replace(/x/g, 'ñ');
+        var newText = newText.replace(/y/g, 'ò');
+        var newText = newText.replace(/z/g, 'ó');
+        var newText = newText.replace(/1/g, 'ô');
+        var newText = newText.replace(/2/g, 'õ');
+        var newText = newText.replace(/3/g, 'ö');
+        var newText = newText.replace(/4/g, '÷');
+        var newText = newText.replace(/5/g, 'ø');
+        var newText = newText.replace(/6/g, 'ù');
+        var newText = newText.replace(/7/g, 'ú');
+        var newText = newText.replace(/8/g, 'û');
+        var newText = newText.replace(/9/g, 'ü');
+        var newText = newText.replace(/0/g, 'ý');
+        var newText = newText.replace(/!/g, 'þ');
+        var newText = newText.replace(/[?=]/g, 'ÿ'); // Note how ? is encased. Otherwise, the script stops here.
+        document.getElementById("textarea").value = newText;  // "newtext" is placed back into the text box.
+      }
+    </script>
+  </head>
+  <body>
+    <p>This utility will convert text for use with italics function used with &quot;<em>Font_12_w_italics1.gbf</em>&quot; or any font based on it. Simply paste any text you want in italics into the box and press the button. The results will look like <em>COMPLETE RUBBISH!</em> Paste the results back into Makebook and select the appropriate font when compiling your ROM. Enjoy the results.</p>
+    <textarea rows="4" cols="50" id="textarea"></textarea>
+    <button id="button" onclick="replace();">convert</button>
+  </body>
+</html>
