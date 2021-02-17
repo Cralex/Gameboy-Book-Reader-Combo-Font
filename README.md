@@ -20,7 +20,7 @@ For anyone stubborn enough to want the third option, including myself, I made on
 
 ## How To Use It
 
-The font works by replacing characters that aren't commonly used in my ebook library with italic characters. They will look strange in the Makebook Editor, but will be properly drawn in the resulting ROM. To make it easy to convert text to use this font, I made a small javascript utility to convert any text you type into it into the designated italic characters. Download it [here](https://www.dropbox.com/s/6gaqngbhmk5u30w/Formatting-Tool.html?dl=1) and open it in any web browser.
+The font works by replacing characters that aren't commonly used in my ebook library with italic characters. They will look strange in the Makebook Editor, but will be properly drawn in the resulting ROM. To make it easy to convert text to use this font, I made a small javascript utility to convert any text you type into it into the designated italic characters. Download it [here](https://github.com/Cralex/Gameboy-Book-Reader-Combo-Font/raw/main/Sample%20Files/Formatting-Tool.zip) and open it in any web browser.
 
 ![Text in the formatting tool.](Pictures/converter.png)
 
