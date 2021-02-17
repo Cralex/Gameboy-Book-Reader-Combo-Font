@@ -6,7 +6,7 @@ A combined standard/italic font for use with Makebook GBA e-book ROM Creator by 
 
 ## What This Is
 
-Makebook is a sophisticated commercial/abondonware utility for Windows that allows a book in TXT format to be converted for consumption on Gameboy (Color) or Gameboy Advance systems, plus emulators that can play software intended for the aforementioned systems. ([More Info](https://archive.org/details/makebook_gba_ebook_creator_v4.92b_20191113)  [Author's Website](http://www.mqp.com/fun/)) The ebook reader used to read these (Gameboy Book Reader) is remarkably full-featured and flexible, but one thing I've always missed about it is support for italic fonts. As a converter that handles TXT files, the results are, by definition, unformatted. However, it does include a built-in font editor, allowing anyone to design their own fonts.
+Makebook is a sophisticated commercial/abondonware utility for Windows that allows a book in TXT format to be converted for consumption on Gameboy (Color) or Gameboy Advance systems, plus emulators that can play software intended for the aforementioned systems. ([More Info](https://archive.org/details/makebook_gba_ebook_creator_v4.92b_20191113),  [Author's Website](http://www.mqp.com/fun/)) The ebook reader used to read these (Gameboy Book Reader) is remarkably full-featured and flexible, but one thing I've always missed about it is support for italic fonts. As a converter that handles TXT files, the results are, by definition, unformatted. However, it does include a built-in font editor, allowing anyone to design their own fonts.
 
 ## Why Italics?
 
@@ -20,17 +20,17 @@ For anyone stubborn enough to want the third option, including myself, I made on
 
 ## How To Use It
 
-The font works by replacing characters that aren't commonly used in my ebook library with italic characters. They will look strange in the Makebook Editor, but will be properly drawn in the resulting ROM. To make it easy to convert text to use this font, I made a small javascript utility to convert any text you type into it into the designated italic characters. Access it [here](Formatting-Tool) or download *Formatting-Tool.html* and open it in any web browser. 
+The font works by replacing characters that aren't commonly used in my ebook library with italic characters. They will look strange in the Makebook Editor, but will be properly drawn in the resulting ROM. To make it easy to convert text to use this font, I made a small javascript utility to convert any text you type into it into the designated italic characters. Download it [here](https://www.dropbox.com/s/6gaqngbhmk5u30w/Formatting-Tool.html?dl=1) and open it in any web browser.
 
 ![Text in the formatting tool.](Pictures/converter.png)
 
 Press the convert button, and paste the results back in Makebook.
 
-![Editor with converted text.](Pictures\editor.png)
+![Editor with converted text.](Pictures/editor.png)
 
  Download *Font_12_w_italics1.gbf* and select it when exporting your book. 
 
-![Font selected to be used.](Pictures\rom-creation.png)
+![Font selected to be used.](Pictures/rom-creation.png)
 
 If everything went well, your book will have snazzy new italics. Happy reading!
 
