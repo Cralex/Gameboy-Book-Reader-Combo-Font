@@ -1,0 +1,21 @@
+~vItalics Test ~i
+By Cralex
+
+
+~cNormal Text Below
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+abcdefghijklmnopqrstuvwxyz
+
+0123456789!?
+
+~cItalics Text Below
+ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÔÒÓÔÕÖ×ØÙ
+
+ÚÛÜÝÞ‗אבגדהוזחטיךכלםמןנסעף
+
+‎פץצקרשתûü‏ÿ
+
+
+
+
