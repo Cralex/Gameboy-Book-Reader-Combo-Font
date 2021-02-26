@@ -40,3 +40,9 @@ If everything went well, your book will have snazzy new italics. Happy reading!
 
 1. The font I made is a hybrid of the default *Font_12.gbf* included with the program and the font from *The Legend of Zelda Link's Awakening*, which is always italic. I'm no professional font creator, though, so I'm sure it could look prettier. ~~Maybe someone would like to improve it?~~ I also didn't bother making other font sizes.
 2. The characters that I sacrificed to make the font are mostly accented Latin characters. This works fine, unless there is some non-English text is included in your book… It would be possible to make a modified version that doesn't replace these characters, or only replaces those least-likely to be seen, but then you'd need to decide what to swap out instead. (Currency symbols that aren't used, for example.) I may take a crack at this if I have a need to do so for my own personal use. Alternatively, feel free to submit your own!
+
+## Tips and Tricks
+
+I have found [Calibre](https://calibre-ebook.com/) to be immensely helpful when using this font, or with Makebook in general. Depending on the format your book is in to start with, you can open it in Calibre's ebook editor. It is a very powerful tool, but for our purposes try the spellcheck feature. You may be able to get an idea of what special characters your book uses by looking at the results.
+
+You can convert books directly to Makebook-compatible txt formatting by setting the output format to TXT, and setting your TXT output options to Output Encoding *cp1252* and Line ending style to *Windows*. Rather than try to scour your book for italic text to convert, I'd change formatting to *Markdown*. For the unfamiliar, Markdown is a way of encoding lightweight formatting in a plaintext file. So anything that's normally written in *italics* in your book will appear as \*italics\*. Searching for occurrences of \* in your book will tell you where the italic content is.
